@@ -1,6 +1,6 @@
 # Talking-head-Audio-Visual-Matching
 
-This repository contains the code developed by TensorFlow for implementing (including the preprossing-input pipeline and training/evaluation) the following paper ![3D Convolutional Neural Networks for Cross Audio-Visual Matching Recognition](http://ieeexplore.ieee.org/document/8063416/). The training/evluation parts is strongly inspired by the official project of https://github.com/astorfi/lip-reading-deeplearning, so you can also reference this official project for more details.
+This repository contains the complete code developed by TensorFlow for implementing (including the preprossing-input pipeline and training/evaluation) the following paper [3D Convolutional Neural Networks for Cross Audio-Visual Matching Recognition](http://ieeexplore.ieee.org/document/8063416/). The training/evluation parts is strongly inspired by the official project of https://github.com/astorfi/lip-reading-deeplearning, so you can also reference this official project for more details.
 
 ![im1](readme_images/1.gif)![im2](readme_images/2.gif)![im3](readme_images/3.gif)
 
@@ -8,7 +8,7 @@ This repository contains the code developed by TensorFlow for implementing (incl
 This project aims to protect face authentication system from the attack of the synthetic video by detecting the synchronization of video and audio of a talking head by 3D CNNs based on *Audio-visual recognition* (AVR).
 
 # Dataset
-This work use the ![Lip Reading Datasets](https://www.robots.ox.ac.uk/~vgg/data/lip_reading/) to train and evluate the algorithm. Since the dataset is based on the video clips of the English news, the models can only be used for the English corpus. 
+This work use the [Lip Reading Datasets](https://www.robots.ox.ac.uk/~vgg/data/lip_reading/) to train and evluate the algorithm. Since the dataset is based on the video clips of the English news, the models can only be used for the English corpus. 
 
 
 # Code Implementation
