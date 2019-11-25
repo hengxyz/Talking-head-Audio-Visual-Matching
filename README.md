@@ -5,7 +5,7 @@ This repository contains the complete code developed by TensorFlow for implement
 ![im1](readme_images/1.gif)![im2](readme_images/2.gif)![im3](readme_images/3.gif)
 
 # Objective
-This project aims to protect face authentication system from the attack of the synthetic video by detecting the synchronization of video and audio of a talking head by 3D CNNs based on *Audio-visual recognition* (AVR).
+This project aims to test the feasibility of using the recognition of the audio-visual matching of the talking head as a liveness control solution. The idea is to protect face authentication system from the attack of the synthetic video by detecting the synchronization of video and audio of a talking head by 3D CNNs based on *Audio-visual recognition* (AVR).
 
 # Dataset
 This work use the [Lip Reading Datasets](https://www.robots.ox.ac.uk/~vgg/data/lip_reading/) to train and evluate the algorithm. Since the dataset is based on the video clips of the English news, the models can only be used for the English corpus. 
