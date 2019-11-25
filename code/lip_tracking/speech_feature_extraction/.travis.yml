@@ -1,0 +1,23 @@
+language: python
+python:
+
+  - "2.7"
+  - "3.4"
+  - "3.5"
+
+# command to install dependencies
+install:
+  - pip install -r requirements.txt
+  - pip install coveralls
+  - pip install codecov
+
+script:
+  - coverage run --omit=*.virtualenvs*,*virtualenv* tests/test_package.py test
+  - coverage run --omit=*.virtualenvs*,*virtualenv* tests/test_local.py test
+
+after_success:
+  - coveralls
+  - codecov
+
+sudo: enabled
+dist: trusty

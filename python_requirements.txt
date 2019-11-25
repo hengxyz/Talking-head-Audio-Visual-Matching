@@ -1,0 +1,11 @@
+cmake
+numpy
+scipy
+python-coveralls
+tensorflow
+scikit-learn
+scikit-image
+dlib
+opencv-python
+sk-video
+tables
